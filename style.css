@@ -1,0 +1,25 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+#page {
+  box-sizing: border-box;
+  padding: 40px;
+  width: 1120px;
+  margin:  auto;
+}
+
+header {
+  color: #E1624F;
+  margin-bottom: 8px;
+}
+
+h1 {
+  padding-bottom: 40px;
+}
+
+#about p {
+  padding-top: 24px;
+  margin-top: 4px;
+}
