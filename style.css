@@ -3,6 +3,12 @@
   padding: 0px;
 }
 
+:root {
+  font-family: "Open Sans", sans-serif;
+  line-height: auto;
+  color: #333333;
+}
+
 #page {
   box-sizing: border-box;
   padding: 40px;
@@ -13,13 +19,98 @@
 header {
   color: #E1624F;
   margin-bottom: 8px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 h1 {
   padding-bottom: 40px;
+  font-size: 36px;
 }
 
 #about p {
   padding-top: 24px;
   margin-top: 4px;
+  text-align: center;
+}
+
+hr {
+  border-top: 1px;
+  color: #D9D9D9;
+  width: 1120px;
+  margin: 40px 0px;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 8px;
+}
+
+#locations {
+  font-size: 16px;
+  padding: 16px 0px;
+}
+
+h3 {
+  font-size: 28px;
+  margin-bottom: 4px;
+}
+
+#placeinfo p {
+  
+}
+
+#placeinfo img {
+  padding-top: 48px;
+  padding-bottom: 20px;
+}
+
+#description {
+  text-align: center;
+}
+
+h1, h2, h3 {
+  color: #1B1B1B;
+}
+
+ol {
+  list-style: decimal;
+  font-size: 28px;
+}
+
+ol li::marker {
+  font-weight: bold;
+}
+
+.História {
+  color: #0C51A7;
+  font-weight: bold;
+}
+
+.Casais {
+  color: #591B98;
+  font-weight: bold;
+}
+
+.Famílias {
+  color: #E5245E;
+  font-weight: bold;
+}
+
+.Orçamento {
+  color: #E95E10;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  font-family: "Alice", serif;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 12px;
+  padding-bottom: 48px;
+}
+
+footer img {
+  vertical-align: middle;
 }
